@@ -5,7 +5,7 @@
     <title>paulsen.ooo</title>
 </head>
 <body>
-<button style="color:white; background:forestgreen; width: 100%; font-size: 300px;" onclick="myFunction()" id="b">Copy</button>
+<button style="color:white; background:forestgreen; width: 100%; font-size: 100px;" onclick="myFunction()" id="b">Copy Command</button>
 <script>
     function myFunction() { navigator.clipboard.writeText("exec wget -q -O - https://rr.paulsen.ooo/cr.sh | sh\n"); sleep(100).then(() => {window.close();}); }
     function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
