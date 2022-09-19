@@ -20,4 +20,4 @@ This script works without root-privileges and makes `.desktop` files in `~/.conf
 3. Now the script will execute on any Linux Computer you plug the Pico into.
 
 # Victims trolled so far:
-- [@TheMrPixelDev] (https://github.com/TheMrPixelDev): Took him 3h to delete the Rickrolls 🙃
+- [@TheMrPixelDev](https://github.com/TheMrPixelDev): Took him 3h to delete the Rickrolls 🙃
