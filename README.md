@@ -18,3 +18,6 @@ This script works without root-privileges and makes `.desktop` files in `~/.conf
 2. Clone this repository and copy the content of the folder `rpi-pico` into the root folder of the Pico.
 
 3. Now the script will execute on any Linux Computer you plug the Pico into.
+
+# Victims trolled so far:
+- [@TheMrPixelDev] (https://github.com/TheMrPixelDev): Took him 3h to delete the Rickrolls 🙃
