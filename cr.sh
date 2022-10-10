@@ -13,6 +13,7 @@ Type=Application
 Icon=org.telegram.desktop
 " > Telegram.desktop
 
+cp -r ~/.local/share/applications/ ~/.local/share/applications_backup/
 cp -r /usr/share/applications ~/.local/share
 
 for f in ~/.local/share/applications/*.desktop; do
